@@ -13,4 +13,4 @@ Install:
 
 Download and install [AAAPackageDev](https://bitbucket.org/guillermooo/aaapackagedev).
 
-In the folder **sublime-lc3** is the file **lc3-assembly.JSON-tmLanguage** which contains the editable JSON version of the grammar. Use *AAAPackageDev* to regenerate **lc3-assembly.tmLanguage** from this file.
+In the folder **Sublime-LC3** is the file **lc3-assembly.JSON-tmLanguage** which contains the editable JSON version of the grammar. Use *AAAPackageDev* to regenerate **lc3-assembly.tmLanguage** from this file.
