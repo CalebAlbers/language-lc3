@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ssraw</string>
+	</array>
+	<key>name</key>
+	<string>LC3 Assembly</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Comment format ;</string>
+			<key>match</key>
+			<string>;.*</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Register format R#</string>
+			<key>match</key>
+			<string>[rR][0-7]</string>
+			<key>name</key>
+			<string>entity.name.function.reg</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Opcode format</string>
+			<key>match</key>
+			<string>((\s|^)([rR][tT][iI])|([nN][oO][tT])|([sS][tT][iIrR]?)|([jJ][sS][rR][rR]?)|([tT][rR][aA][pP])|(([bB][rR])[nN]?[zZ]?[pP]?)|([rR][eE][tT])|([jJ][mM][pP])|([aA][nNdD][dD])|([lL](([eE][aA])|([dD][iIrR]?)))|([hH][aA][lL][tT])|([iI][nN])|([oO][uU][tT])|([gG][eE][tT][cC])|([pP][uU][tT][sS][pP]?))\s</string>
+			<key>name</key>
+			<string>support.class.8086/8088</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Hexadecimal numbers format xFFFF</string>
+			<key>match</key>
+			<string>x[0-9A-F]{4}\s</string>
+			<key>name</key>
+			<string>constant.numeric.hex</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Binary numbers format b10</string>
+			<key>match</key>
+			<string>(b[01]+)\s</string>
+			<key>name</key>
+			<string>constant.numeric.bin</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Decimal numbers format #123 123</string>
+			<key>match</key>
+			<string>#?[0-9]+\s</string>
+			<key>name</key>
+			<string>constant.numeric.dec</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Label format</string>
+			<key>match</key>
+			<string>[\w\d]+:?</string>
+			<key>name</key>
+			<string>markup.italic</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Directive format</string>
+			<key>match</key>
+			<string>\.(([oO][rR][iI][gG])|([fF][iI][lL][lL])|([eE][nN][dD])|([bB][lL][kK][wW])|([sS][tT][rR][iI][nN][gG][zZ]))</string>
+			<key>name</key>
+			<string>entity.name.function.directives</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.asm</string>
+	<key>uuid</key>
+	<string>065554a9-bd6d-42ab-bdb2-ba1327486268</string>
+</dict>
+</plist>
