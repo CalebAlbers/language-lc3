@@ -13,7 +13,7 @@
   "activationCommands": {
     "atom-workspace": "language-lc3:toggle"
   },
-  "repository": "https://github.com/atom/language-lc3",
+  "repository": "https://github.com/CalebAlbers/language-lc3",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
