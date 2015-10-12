@@ -9,6 +9,7 @@
     "language-lc3",
     "Assembly",
     "Little Computer 3"
+    "language"
   ],
   "activationCommands": {
     "atom-workspace": "language-lc3:toggle"
