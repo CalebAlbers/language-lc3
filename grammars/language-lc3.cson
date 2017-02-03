@@ -30,7 +30,7 @@
     'comment': 'Binary numbers format b10'
   }
   {
-    'match': '#?[0-9]+\\s'
+    'match': '#?-?[0-9]+\\s'
     'name': 'constant.numeric.dec'
     'comment': 'Decimal numbers format #123 123'
   }
